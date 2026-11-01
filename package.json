@@ -1,0 +1,33 @@
+{
+  "name": "joplin-plugin-tag-tree",
+  "version": "1.0.0",
+  "description": "Joplin plugin: shows tags as a tree in a side panel, the hierarchy read from the tag name (project/alpha under project).",
+  "keywords": [
+    "joplin-plugin",
+    "tags",
+    "tree",
+    "hierarchical-tags",
+    "nested-tags"
+  ],
+  "license": "MIT",
+  "author": "Younes Z.",
+  "homepage": "https://github.com/Rezarys/joplintagtree#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rezarys/joplintagtree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rezarys/joplintagtree/issues"
+  },
+  "files": [
+    "publish",
+    "src",
+    "scripts/build.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test tests/"
+  }
+}
