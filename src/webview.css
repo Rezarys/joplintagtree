@@ -1,0 +1,77 @@
+.tt-root {
+  font-family: var(--joplin-font-family, sans-serif);
+  font-size: var(--joplin-font-size, 13px);
+  color: var(--joplin-color, inherit);
+  padding: 6px 8px;
+}
+
+.tt-bar {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.tt-filter {
+  flex: 1;
+  min-width: 0;
+  background: var(--joplin-background-color, inherit);
+  color: var(--joplin-color, inherit);
+  border: 1px solid var(--joplin-divider-color, #888);
+  border-radius: 3px;
+  padding: 2px 6px;
+}
+
+.tt-refresh {
+  background: var(--joplin-background-color3, inherit);
+  color: var(--joplin-color, inherit);
+  border: 1px solid var(--joplin-divider-color, #888);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.tt-count,
+.tt-empty {
+  opacity: 0.7;
+  margin: 2px 0 6px;
+}
+
+.tt-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 14px;
+}
+
+.tt-tree > .tt-list {
+  padding-left: 0;
+}
+
+.tt-node {
+  margin: 1px 0;
+}
+
+.tt-leaf {
+  padding-left: 14px;
+}
+
+.tt-node summary {
+  cursor: pointer;
+}
+
+.tt-tag {
+  color: var(--joplin-url-color, inherit);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tt-tag:hover {
+  text-decoration: underline;
+}
+
+.tt-group {
+  opacity: 0.8;
+}
+
+.tt-alias {
+  opacity: 0.7;
+  font-size: 0.9em;
+}
